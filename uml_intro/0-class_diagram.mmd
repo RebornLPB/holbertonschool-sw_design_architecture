@@ -3,8 +3,8 @@ classDiagram
         +title: str
         +author: str
         +state: bool
-        +mark_as_unavailable()
-        +mark_as_available()
+        +mark_as_unavailable(): None
+        +mark_as_available(): None
     }
 
     class User {
@@ -15,13 +15,13 @@ classDiagram
     class Loan {
         +start_date: str
         +end_date: str
-        +close_loan()
+        +close_loan(): None
     }
 
     class Library {
-        +add_book()
-        +register_user()
-        +create_loan()
+        +add_book(): None
+        +register_user(): None
+        +create_loan(): None
     }
 
     Library "1" -- "0..*" Book
