@@ -24,8 +24,5 @@ classDiagram
         +create_loan(book: Book, user: User): Loan
     }
 
-    Library "1" -- "0..*" Book
-    Library "1" -- "0..*" User
-    Library "1" -- "0..*" Loan
-    Loan "0..*" --> "1" Book
-    Loan "0..*" --> "1" User
+    Loan "*" --> "1" Book
+    Loan "*" --> "1" User
