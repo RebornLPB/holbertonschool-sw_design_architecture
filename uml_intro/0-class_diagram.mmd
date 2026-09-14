@@ -26,6 +26,6 @@ classDiagram
 
     Library "1" o-- "*" Book
     Library "1" o-- "*" User
-    Library "1" o-- "*" Loan
+    Library "1" -- "*" Loan
     Loan "*" -- "1" Book
     Loan "*" -- "1" User
