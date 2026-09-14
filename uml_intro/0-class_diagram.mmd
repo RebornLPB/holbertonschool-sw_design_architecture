@@ -1,20 +1,20 @@
 classDiagram
     class Book {
-        +str title
-        +str author
-        +bool state
+        +title: str
+        +author: str
+        +state: bool
         +mark_as_unavailable()
         +mark_as_available()
     }
 
     class User {
-        +str name
-        +str email
+        +name: str
+        +email: str
     }
 
     class Loan {
-        +str start_date
-        +str end_date
+        +start_date: str
+        +end_date: str
         +close_loan()
     }
 
