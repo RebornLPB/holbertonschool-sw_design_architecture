@@ -19,9 +19,9 @@ classDiagram
     }
 
     class Library {
-        +add_book(): None
-        +register_user(): None
-        +create_loan(): None
+        +add_book(book: Book): None
+        +register_user(user: User): None
+        +create_loan(book: Book, user: User): Loan
     }
 
     Library "1" -- "0..*" Book
