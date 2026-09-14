@@ -3,8 +3,8 @@ classDiagram
         +str title
         +str author
         +bool state
-        +mark_as_available()
         +mark_as_unavailable()
+        +mark_as_available()
     }
 
     class User {
@@ -24,8 +24,8 @@ classDiagram
         +create_loan()
     }
 
-    Library "1" o-- "*" Book
-    Library "1" o-- "*" User
-    Library "1" -- "*" Loan
-    Loan "*" -- "1" Book
-    Loan "*" -- "1" User
+    Library "1" -- "0..*" Book
+    Library "1" -- "0..*" User
+    Library "1" -- "0..*" Loan
+    Loan "0..*" --> "1" Book
+    Loan "0..*" --> "1" User
