@@ -65,7 +65,7 @@ def main() -> None:
     print(cup2.description(), cup2.cost())
 
     cup3 = CaramelDecorator(MilkDecorator(SugarDecorator(Coffee())))
-    print(cup3.description(), cup2.cost())
+    print(cup3.description(), cup3.cost())
 
     # TODO: build CaramelDecorator(MilkDecorator(SugarDecorator(Coffee()))) and print it
 
