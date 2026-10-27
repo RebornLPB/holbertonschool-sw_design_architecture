@@ -8,7 +8,7 @@ This repository gathers the projects completed during the **Software Design & Ar
 ## 🛠️ General Requirements & Environment
 * **OS:** Ubuntu 20.04 LTS
 * **Interpreter:** `python3` (version 3.8.5+)
-* **Style Guide:** All Python source files strictly comply with **PEP 8**.
+* **Style Guide:** All Python source files are meant to follow **PEP 8**.
 * **Diagrams:** UML diagrams are written in [Mermaid](https://mermaid.js.org/) syntax (`.mmd`).
 
 ---

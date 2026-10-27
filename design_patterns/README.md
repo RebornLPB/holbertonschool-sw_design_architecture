@@ -14,7 +14,7 @@ All scripts are written for **Python 3.8+** and follow the **PEP 8** style guide
 ## 🛠️ Requirements & Engineering Constraints
 * **OS:** Ubuntu 20.04 LTS
 * **Interpreter:** `python3` (version 3.8.5+)
-* **Style Guide:** 100% compliant with PEP 8 standards.
+* **Style Guide:** Code is meant to follow the PEP 8 style guide.
 
 ## 📁 File List & Tasks Directory
 
